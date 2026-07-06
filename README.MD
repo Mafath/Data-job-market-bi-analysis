@@ -70,7 +70,7 @@ The underlying data contains granular details regarding job postings, salaries, 
     <td align="left" valign="top" style="border: none; width: 50%;">
       <img src="Images/Dim Skills%20Job%20Transformations.png" alt="Transformations - Dim Skills Job"><br><br>
       <code>Key Transformations</code> : Maintained a structured bridge table mapping multi-valued skill groups cleanly back to individual job IDs <br> 
-      <code>Dataset</code> : Skills Junction
+      <code>Dataset</code> : Skills Job Dimension
     </td>
   </tr>
 </table>
@@ -80,7 +80,7 @@ The underlying data contains granular details regarding job postings, salaries, 
 <table border="0">
   <tr>
     <td align="left" valign="top" style="border: none; width: 50%;">
-      <img src="Images/Dim%20Skills%20Transformations.png" alt="Transformations - Fact Table"><br><br>
+      <img src="Images/Fact Table Transformations.png" alt="Transformations - Fact Table"><br><br>
       <code>Key Transformations</code> : Configured conditional columns, recalculated localized adjusted hour/year compensation parameters, and locked transactional grain <br> 
       <code>Dataset</code> : Fact Table
     </td>
